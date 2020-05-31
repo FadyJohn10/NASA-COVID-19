@@ -1,0 +1,72 @@
+body{background-color: #000;}
+
+/*nav menu section*/
+.navbar{border-bottom: 1px solid #111; margin-bottom: 30px;}
+
+.navbar-brand img{animation: rotating 2s infinite ease-in-out;}
+
+@keyframes rotating {
+    100% {
+      transform: rotatey(360deg);
+    }
+}
+
+.navbar-brand p{
+    margin-left: 10px;
+    position: relative;
+    top: 7px;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+@media (max-width: 576px) {
+    .navbar-brand p{font-size: 18px; top: 18px;}
+}
+
+.navbar-brand span{color: #5bbd63;}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+a.nav-link{color: #fff !important; text-transform: uppercase;}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link,
+.navbar .nav-link:hover{
+    COLOR: #5bbd63 !important;
+}
+
+.navbar .nav-item{font-weight: 700; padding: 5px;}
+
+/* footer section */
+
+footer{
+    background: url(../images/header&footer-bg.jpg) fixed center center;
+    background-size: cover;
+}
+
+footer .overlay{
+  padding: 50px 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+}
+
+@media (max-width: 576px) {
+    footer .row > div{margin-bottom: 30px;}
+}
+
+footer h4{color: #ccc;}
+
+footer ul{list-style: none; padding-left: 0;}
+
+footer li{margin: 5px 0;}
+
+footer a, footer p{color: #676767;}
+
+footer a:hover{color: #ccc; text-decoration: none;}

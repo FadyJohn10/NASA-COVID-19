@@ -1,0 +1,248 @@
+.section-head{
+    position: relative;
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+  }
+  
+  @media (max-width: 576px) {
+      .section-head{margin: 10px 0;}
+  }
+  
+  .section-head:before{
+   background-color: #5bbd63;
+   border-radius: 5px;
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 3px;
+   width: 5px;
+   height: 100%;
+  }
+
+.pagination .page-link{color: #5bbd63;}
+
+.page-item.active .page-link{
+    color: #fff;
+    background-color: #5bbd63;
+    border-color: #5bbd63;
+}
+
+/*nav menu section*/
+.navbar{border-bottom: 1px solid #ddd;}
+
+.navbar-brand{font-weight: bold; font-size: 1.5rem;}
+
+.navbar-brand span{color: #5bbd63;}
+
+.nav-link{font-size: 1.1rem;}
+
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show>.nav-link,
+.navbar .nav-link:hover{
+    COLOR: #5bbd63 !important;
+}
+
+a.dropdown-item.active {
+    background-color: #5bbd63;
+}
+
+.navbar .nav-item{font-weight: 700; padding: 5px; text-transform: uppercase;}
+
+/* start header section */
+.page-header, footer{
+    background: url(../images/plant1.jpg) fixed center center;
+    background-size: cover;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    clip-path: polygon(0% 0%, 0% 100%, 45% 100%, 85% 0%);
+}
+.welcome-box{width: 50%; padding: 100px 0 0 60px;}
+
+.welcome-box h2 {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.welcome-box span{color: #5bbd63; margin-top: 5px; font-size: 70px; display: block;}
+
+@media (max-width: 576px) {
+    .welcome-box{display: none;}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .welcome-box h2{font-size: 15px;}
+    .welcome-box span{font-size: 55px;}
+}
+
+/* start food journey */
+.food-journey,
+.virus-impacts,
+.economic-effects,
+.food-demand,
+.farmers-support,
+.safer-food-keys,
+.fisheries,
+.recomm{margin-top: 50px;}
+
+.food-journey h3{margin: 5px 0;}
+
+/* start safer food keys section */
+
+.safer-food-keys h3{margin-top: 40px;}
+
+/* team page */
+
+.testimonials{
+    background-color: #ECE8D9;
+    padding: 100px 0;
+}
+
+.testimonials h2{
+    font-size: 3rem; 
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.testimonials h2 span{font-weight: 700;}
+
+.testimonials .box{margin-bottom: 30px;}
+
+.box-hagar{transform: translateY(200px);}
+
+@media (max-width: 767.98px) { .box-hagar{transform: translateY(0);}}
+
+.testimonials .box img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+/************ faq page ************/
+
+button.btn.btn-link.collapsed,
+button.btn.btn-link {
+    text-decoration: none;
+    color: #5bbd63;
+    font-weight: 700;
+}
+
+div#collapseOne,
+div#collapseTwo,
+div#collapseThree,
+div#collapseFour,
+div#collapseFive{
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.form-style-5{
+	max-width: 500px;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	margin: 10px auto;
+	padding: 20px;
+	background: #f4f7f8;
+	border-radius: 8px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style-5 fieldset{
+	border: none;
+}
+.form-style-5 legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+
+}
+.form-style-5 label {
+	display: block;
+	margin-bottom: 8px;
+}
+.form-style-5 input[type="text"],
+.form-style-5 input[type="date"],
+.form-style-5 input[type="datetime"],
+.form-style-5 input[type="email"],
+.form-style-5 input[type="number"],
+.form-style-5 input[type="search"],
+.form-style-5 input[type="time"],
+.form-style-5 input[type="url"],
+.form-style-5 textarea,
+.form-style-5 select {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: #e8eeef;
+	color:#8a97a0;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="date"]:focus,
+.form-style-5 input[type="datetime"]:focus,
+.form-style-5 input[type="email"]:focus,
+.form-style-5 input[type="number"]:focus,
+.form-style-5 input[type="search"]:focus,
+.form-style-5 input[type="time"]:focus,
+.form-style-5 input[type="url"]:focus,
+.form-style-5 textarea:focus,
+.form-style-5 select:focus{
+	background: #d2d9dd;
+}
+.form-style-5 select{
+	-webkit-appearance: menulist-button;
+	height:35px;
+}
+.form-style-5 .number {
+	background: #5bbd63;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 15px 15px 15px 0px;
+}
+
+.form-style-5 input[type="submit"],
+.form-style-5 input[type="button"]
+{
+	position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	margin: 0 auto;
+	background: #5bbd63;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border: 1px solid #5bbd63;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+}
+.form-style-5 input[type="submit"]:hover,
+.form-style-5 input[type="button"]:hover
+{
+	background: #5bbd63;
+}
